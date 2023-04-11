@@ -81,7 +81,7 @@ aside form{
 	width: 100%;
 }
 nav, aside{
-	width: 20%;
+	width: 15em;
 	background-color: inherit;
 	border: none;
 }
@@ -161,6 +161,15 @@ div.principaleAside, aside .button{
 
 div.principaleAside div {
 	margin: 0.5em;
+}
+
+div.elemAside {
+	display: flex;
+	align-items: baseline;
+}
+
+div.principaleAside label {
+	max-width: 10em;
 }
 
 aside .button{
