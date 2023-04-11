@@ -81,7 +81,8 @@ aside form{
 	width: 100%;
 }
 nav, aside{
-	width: 15em;
+	width: 20%;
+	min-width: 15em;
 	background-color: inherit;
 	border: none;
 }
